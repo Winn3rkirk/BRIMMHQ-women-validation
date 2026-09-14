@@ -58,11 +58,15 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .site-header { padding: 24px 2px 18px; }
 
 .wordmark {
-  color: var(--navy);
-  font-size: 1.12rem;
-  font-weight: 900;
-  letter-spacing: .08em;
+  display: inline-flex;
+  align-items: center;
   text-decoration: none;
+}
+
+.brand-logo {
+  display: block;
+  width: min(190px, 50vw);
+  height: auto;
 }
 
 .tagline,
